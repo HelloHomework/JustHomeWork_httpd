@@ -1,6 +1,6 @@
 SHELL = /bin/bash
 CC = gcc
-CFLAGS= -O3
+CFLAGS=
 DEBUG_FLAGS = -g -W -Wall -D DEBUG
 SRC = $(wildcard *.c)
 EXE = $(patsubst %.c, %, $(SRC))
